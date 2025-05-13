@@ -6,6 +6,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import os
 
+
 def create_app(config_name='default'):
     app = Flask(__name__)
     
