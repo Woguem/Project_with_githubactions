@@ -29,7 +29,7 @@ def echo():
 @main.route('/api/error-example')
 def error_example():
     try:
-        # Simulate an error
+        # Simulate an error for demonstration
         raise ValueError("This is a test error")
     except Exception as e:
         return jsonify({
