@@ -18,7 +18,7 @@ def echo():
         return jsonify({
             'error': 'No data provided',
             'status': 'error'
-        }), 400 
+        }), 400
     
     return jsonify({
         'message': 'Echo successful',
